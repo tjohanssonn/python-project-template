@@ -1,0 +1,11 @@
+[flake8]
+max-line-length = 80
+exclude =
+    .git,
+    __pycache__,
+    build,
+    dist,
+max-complexity = 12
+# Allow line length to exceed limit by 10% (B950 replaces E501)
+ignore = E501
+select = C,E,F,W,B,B901,B950
